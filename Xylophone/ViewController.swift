@@ -1,0 +1,28 @@
+//  Xylophone
+
+//
+import UIKit
+import AVFoundation//Audio visual foundation library
+
+class ViewController: UIViewController {
+    
+    //creating a new AVAudioPlayer
+    var player = AVAudioPlayer()
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    @IBAction func keyPressed(_ sender: UIButton) {
+        
+        playSound(soundName: sender.currentTitle!)
+    }
+    
+    func playSound(soundName: String){
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+        
+    }
+}
+
