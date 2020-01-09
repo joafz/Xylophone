@@ -1,6 +1,7 @@
 Xylophone
 ==========
 ![Language](https://img.shields.io/badge/Swift-5.0-orange.svg)
+![Language](https://img.shields.io/badge/iOS-13.0-orange.svg)
 
 
 <p>This is a Xylophone App built in Swift.</p>
