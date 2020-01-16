@@ -11,7 +11,8 @@ Xylophone
 ## How it works!
 <p>The user can play a musical note by tapping on each button.</p>
 
-![Xylophone App](https://im7.ezgif.com/tmp/ezgif-7-6a38bb46b87b.gif)
+![Xylophone App](https://user-images.githubusercontent.com/39883704/72485891-3d0d4e80-37d7-11ea-8e4a-449287cc223b.gif)
+
 
 
 
